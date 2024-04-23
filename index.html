@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SY HOUSE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/utils.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
     <!--Anasayfa-->
     <header id="home" class="main-header">
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <div class="logo">
-                <img src="image/logo.png" alt="logo">
+                <img class="img" src="image/logo.png" alt="logo">
             </div>
             <nav class="menu">
                 <ul>
@@ -30,13 +31,6 @@
                 </ul>
             </nav>
         </div>
-        <!-- 
-        <div class="content">
-            <div class="home-content">
-                <h1>Hayalinizdeki Evi Bulun</h1>
-            </div>
-
-        </div> -->
     </header>
 
 
@@ -45,8 +39,6 @@
         <div class="about-image">
             <img src="image/about.jpg">
         </div>
-
-
         <div class="container">
             <div class="heading">
                 <h2>Biz Kimiz?</h2>
@@ -63,15 +55,39 @@
     </section>
 
     <!--Hizmetlerimiz-->
-    <section class="services">
-        <div class="services-container">
-            <img src="./image/emlak.jpg" alt="emlak">
-            <img src="./image/insaat.jpg" alt="inşaat">
+    <section id="services" class="services">
+        <div class="services-wrapper">
+            <div class="services-heading">
+                <h2>Hizmetlerimiz</h2>
+            </div>
+            <div class="services-container">
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Emlak</h3>
+                    <p>Emlak hizmetlerimiz kapsamında size en uygun konutu bulmanıza yardımcı oluyoruz.</p>
+                    <div class="services-btn-container">
+                        <button class="services-btn">Detaylı Bilgi <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>İnşaat</h3>
+                    <p>İnşaat alanında uzman ekibimizle hayallerinizdeki evi inşa etmenize destek oluyoruz.</p>
+                    <div class="services-btn-container">
+                        <button class="services-btn">Detaylı Bilgi <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </section>
 
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
 
 </body>
 
