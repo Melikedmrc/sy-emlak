@@ -221,28 +221,55 @@ a {
     margin-right: 10%;
 }
 
-.btn {
+/* .btn {
     display: inline-block;
     background-color: #EE9102;
     color: #000000;
     padding: 12px 24px;
-    margin-top: 25px;
+    margin: 15px;
     border-radius: 5px;
     font-weight: 600;
     font-size: 1.6rem;
     border: none;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.3s ease; 
 
 }
 
-.btn:hover {
+ .btn:hover {
     transform: scale(1.1);
-    /* Büyüme efekti */
+    
     box-shadow: 0 0 20px rgba(255, 193, 7, 0.7);
-    /* Sarı tonlarında gölge */
-}
+    
+}     */
+        
+.btn {
+     /*background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);  */
+    /* background-image: linear-gradient(to right, #EE9102 0%, #eda43f  51%, #EE9102  100%);*/
+     background-image: linear-gradient(to right, #EE9102 0%, #edce5d  51%, #EE9102  100%); 
+    margin: 10px;
+    padding: 13px 38px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.7rem;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px  rgba(255, 193, 7, 0.7);
+    border-radius: 10px;
+    display: block;
+    border: none;
+    transition: 0.3s ease; 
+  }
 
+  .btn:hover {
+    background-position: right center;
+    color: black;
+    text-decoration: none;
+    transform: scale(1.1);
+  } 
+ 
 /*About End*/
 
 /*Services Start*/
@@ -444,7 +471,6 @@ flex-direction: column;
 
 .footer .copyright {
     margin-top: 2px; /* Telif hakkı bildiriminin üstündeki boşluk */
-    bottom: 0;
 }
 
 /*ÖNEMLİ FOOTER #0A1F2A*/
