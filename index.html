@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SY HOUSE</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media-queries.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,7 +21,8 @@
     <header id="home" class="main-header">
         <div class="navbar" id="navbar">
             <div class="logo">
-                <img class="img" src="image/logo.png" alt="logo">
+                <img class="img first_logo" src="image/logo.png" alt="logo">
+                <img class="img second_logo" src="image/mobilLogo.png" alt="mobil logo">
             </div>
             <nav class="menu">
                 <ul>
@@ -51,15 +52,14 @@
             </div>
             <div class="content">
                 <p>SY House Yapı & Gayrimenkul olarak, sektördeki deneyimimizle her adımda yanınızdayız. Emlak ve inşaat
-                    alanındaki
-                    uzmanlığımızla size en iyi çözümleri sunmayı hedefliyoruz. Her müşteri için özel bir yaklaşım
-                    benimseyerek, hayallerinizdeki evi bulmanıza yardımcı olmak için buradayız.
-                    Memnuniyet odaklı çalışarak, ihtiyaçlarınıza en uygun çözümleri sunmayı ve beklentilerinizi
-                    aşmayı hedefliyoruz. Şeffaflık, dürüstlük ve etik değerlere dayalı bir iş anlayışı benimsiyoruz.
-                    Sürekli kendimizi geliştirerek size en iyi hizmeti sunmak için çalışıyoruz.
+                    alanındaki uzmanlığımızla size en iyi çözümleri sunmayı hedefliyoruz . Her müşteri için özel bir
+                    yaklaşım
+                    benimseyerek, hayallerinizdeki evi bulmanıza yardımcı olmak için buradayız . Memnuniyet odaklı
+                    çalışarak, ihtiyaçlarınıza en uygun çözümleri sunmayı ve beklentilerinizi
+                    aşmayı hedefliyoruz . Şeffaflık, dürüstlük ve etik değerlere dayalı bir iş anlayışı benimsiyoruz.
+                    Sürekli kendimizi geliştirerek size en iyi hizmeti sunmak için çalışıyoruz .
                     SY House Yapı & Gayrimenkul olarak, sizlere hayallerinizdeki evi bulma yolculuğunda güvenilir bir
-                    ortaklık
-                    sunmaktan mutluluk duyuyoruz. Her zaman yanınızdayız ve sizin için buradayız.</p>
+                    ortaklık sunmaktan mutluluk duyuyoruz . Her zaman yanınızdayız ve sizin için buradayız.</p>
                 <!-- <button class="btn">Devamını Oku</button> -->
             </div>
         </div>
@@ -78,11 +78,11 @@
                         <i class="fas fa-home"></i>
                     </div>
                     <h3>Emlak</h3>
-                    <p>Emlak hizmetlerimiz kapsamında size en uygun konutu bulmanıza yardımcı oluyoruz.</p>
-                    <div class="services-btn-container">
+                    <p>Emlak hizmetlerimiz kapsamında <br> size en uygun konutu bulmanıza yardımcı oluyoruz.</p>
+                    <!-- <div class="services-btn-container">
                         <a href="https://www.emlakjet.com/emlak-ofisleri-detay/sy-house-gayrimenkul-1712698/"
                             target="_blank" class="services-btn">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="service">
                     <div class="icon">
@@ -104,13 +104,15 @@
             <div class="footer-icons">
                 <div class="footer">
                     <div class="icon">
-                        <img src="image/telephone-call.png" alt="Telefon">
+                        <a href="tel:05421596093">
+                            <img src="image/telephone-call.png" alt="Telefon">
+                        </a>
                     </div>
                     <h3>TELEFON</h3>
-                    <p>0542 159 60 93</p>
+                    <p><a href="tel:05421596093" style="color: #f8f8f8;">0542 159 60 93</a></p>
                 </div>
                 <div class="footer">
-                    <div class="icon">
+                    <div class="icon" style="cursor: pointer;" onclick="openLocation()">
                         <img src="image/location.png" alt="Konum">
                     </div>
                     <h3>KONUM</h3>
@@ -120,10 +122,12 @@
                 </div>
                 <div class="footer">
                     <div class="icon">
-                        <img src="image/email.png" alt="E-Posta">
+                        <a href="mailto:info@syhouseyapi.com" style="color: #f8f8f8;">
+                            <img src="image/email.png" alt="E-Posta">
+                        </a>
                     </div>
                     <h3>E-MAIL</h3>
-                    <p>info@syhouseyapi.com</p>
+                    <p><a href="mailto:info@syhouseyapi.com" style="color: #f8f8f8;">info@syhouseyapi.com</a></p>
                 </div>
             </div>
             <div class="copyright">

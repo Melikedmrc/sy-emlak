@@ -1,0 +1,463 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .menu {
+        display: none;
+    }
+
+
+    .second_logo {
+        background-size: contain;
+        /* Görüntüyü div'in içine sığacak şekilde boyutlandır */
+        background-repeat: no-repeat;
+        /* Görüntüyü tekrar etme */
+        background-position: center;
+        /* Görüntüyü dikey ve yatay olarak merkezle */
+        width: 70%;
+        /* Görüntü genişliği */
+        margin-top: 7px;
+        /* İstediğiniz şekilde ayarlayın */
+        /* text-align: right; */
+        text-align: right;
+        float: right;
+        margin-right: -55px;
+    }
+
+    .main-content h2 {
+        font-size: 2rem;
+    }
+
+    .main-content .btn {
+        font-size: 1.5rem;
+        /* margin: 5px;
+        padding: 5px 18px; */
+        width: auto;
+    }
+
+    .service {
+        width: 10vh;
+        height: 12vh;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        /* Mobil boyutta sütun haline getir ve sıralamayı ters çevir */
+        align-items: center;
+        padding: 0;
+        text-align: justify;
+
+    }
+
+    .heading h2 {
+        padding-top: 60px;
+        font-size: 3rem;
+    }
+
+    .content p {
+        line-height: 22px;
+        font-size: 1.3rem;
+        padding: 10px 15px;
+    }
+
+
+    .about-image,
+    .about .container {
+        width: 100%;
+        /* Sütunların genişliğini tam ekran yap */
+        margin-right: 0;
+        /* Sağ taraftaki boşluğu kaldır */
+    }
+
+    .about-image {
+        margin-top: 20px;
+        /* İki sütun arasına boşluk ekle */
+        margin-bottom: 40px;
+        display: flex;
+        /* Resimleri ve içerikleri hizalamak için flex kullan */
+        justify-content: center;
+        /* Resmi yatayda ortala */
+    }
+
+    .about-image img {
+        max-width: 80%;
+        /* Resmin maksimum genişliğini ayarla */
+        height: auto;
+        /* Resmin orijinal en boy oranını koru */
+        border-radius: 10px;
+        margin-left: auto;
+        /* Media sorgusunda resmi tam ortalamak için sola ve sağa boşluk ekleyin */
+        margin-right: auto;
+    }
+
+    .service {
+        width: auto;
+        height: auto;
+    }
+
+    .service h3 {
+        margin: 15px 0;
+    }
+
+    .service p {
+        padding: 2px 30px 15px 30px;
+    }
+
+    .footer .icon {
+        margin: 1px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .img {
+        width: 25vh;
+    }
+
+    .first_logo {
+        background-size: contain;
+        /* Görüntüyü div'in içine sığacak şekilde boyutlandır */
+        background-repeat: no-repeat;
+        /* Görüntüyü tekrar etme */
+        background-position: center;
+        /* Görüntüyü dikey ve yatay olarak merkezle */
+        /* width: 100px; */
+        /* Görüntü genişliği */
+        margin-top: 18px;
+        /* İstediğiniz şekilde ayarlayın */
+        /* text-align: right; */
+        text-align: left;
+        float: left;
+        margin-left: -40px;
+    }
+
+    .navbar a {
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 25px 30px;
+        margin-right: -45px;
+        text-align: right;
+    }
+
+    .main-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .main-content .btn {
+        font-size: 1.8rem;
+        /* margin: 5px;
+        padding: 7px 20px; */
+        width: auto;
+    }
+
+    .service {
+        width: 10vh;
+        height: 12vh;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        /* Mobil boyutta sütun haline getir ve sıralamayı ters çevir */
+        align-items: center;
+        padding: 0;
+        text-align: justify;
+
+    }
+
+    .heading h2 {
+        padding-top: 60px;
+        font-size: 3rem;
+    }
+
+    .content p {
+        line-height: 22px;
+        font-size: 1.3rem;
+        padding: 10px 15px;
+    }
+
+
+    .about-image,
+    .about .container {
+        width: 100%;
+        /* Sütunların genişliğini tam ekran yap */
+        margin-right: 0;
+        /* Sağ taraftaki boşluğu kaldır */
+    }
+
+    .about-image {
+        margin-top: 20px;
+        /* İki sütun arasına boşluk ekle */
+        margin-bottom: 40px;
+        display: flex;
+        /* Resimleri ve içerikleri hizalamak için flex kullan */
+        justify-content: center;
+        /* Resmi yatayda ortala */
+    }
+
+    .about-image img {
+        max-width: 80%;
+        /* Resmin maksimum genişliğini ayarla */
+        height: auto;
+        /* Resmin orijinal en boy oranını koru */
+        border-radius: 10px;
+        margin-left: auto;
+        /* Media sorgusunda resmi tam ortalamak için sola ve sağa boşluk ekleyin */
+        margin-right: auto;
+    }
+
+    .service {
+        /*
+        width: auto;*/
+        height: auto;
+        width: 50vh;
+    }
+
+    .service h3 {
+        margin: 15px 0;
+    }
+
+    .service p {
+        padding: 2px 30px 15px 30px;
+    }
+
+    .footer .icon {
+        margin: 1px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+     .img {
+        width: 16vh;
+    } 
+
+    .first_logo {
+        background-size: contain;
+        /* Görüntüyü div'in içine sığacak şekilde boyutlandır */
+        background-repeat: no-repeat;
+        /* Görüntüyü tekrar etme */
+        background-position: center;
+        /* Görüntüyü dikey ve yatay olarak merkezle 
+        width: 100%;*/
+        /* Görüntü genişliği */
+        margin-top: 25px;
+        /* İstediğiniz şekilde ayarlayın */
+        /* text-align: right; */
+        text-align: left;
+        float: left;
+        margin-left: -20px;
+    }
+
+    .navbar a {
+        font-weight: 700;
+        font-size: 1.5rem;
+        padding: 25px 30px;
+        margin-right: -45px;
+        text-align: right;
+    }
+
+    .main-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .main-content .btn {
+        font-size: 1.8rem;
+        /* margin: 5px;
+        padding: 7px 20px; */
+        width: auto;
+    }
+
+    .service {
+        width: 10vh;
+        height: 12vh;
+    }
+
+    .about {
+         /* flex-direction: column-reverse;
+       Mobil boyutta sütun haline getir ve sıralamayı ters çevir */
+        align-items: center;
+        padding: 5px 15px;
+        text-align: justify;
+
+    }
+
+    .heading h2 {
+        padding-top: 60px;
+        font-size: 3rem;
+    }
+
+    .content p {
+        line-height: 22px;
+        font-size: 1.3rem;
+        padding: 10px 15px;
+    }
+
+
+    .about-image,
+    .about .container {
+        width: 100%;
+        /* Sütunların genişliğini tam ekran yap */
+        margin-right: 0;
+        /* Sağ taraftaki boşluğu kaldır */
+    }
+
+    .about-image {
+        margin-top: 20px;
+        /* İki sütun arasına boşluk ekle */
+        margin-bottom: 40px;
+        display: flex;
+        /* Resimleri ve içerikleri hizalamak için flex kullan */
+        justify-content: center;
+        /* Resmi yatayda ortala */
+    }
+
+    .about-image img {
+        max-width: 80%;
+        /* Resmin maksimum genişliğini ayarla */
+        height: auto;
+        /* Resmin orijinal en boy oranını koru */
+        border-radius: 10px;
+        margin-left: auto;
+        /* Media sorgusunda resmi tam ortalamak için sola ve sağa boşluk ekleyin */
+        margin-right: auto;
+    }
+
+    .service {
+        /*
+        width: auto;*/
+        height: auto;
+        width: 50vh;
+    }
+
+    .service h3 {
+        margin: 15px 0;
+    }
+
+    .service p {
+        padding: 2px 30px 15px 30px;
+    }
+
+    .footer .icon {
+        margin: 1px;
+    }
+
+}
+
+@media (min-width: 906px) {
+    .footer .footer-icons {
+        flex-direction: row; /* Footer ikonlarını yatayda sırala */
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .img {
+        width: 28vh;
+    } 
+
+    .first_logo {
+        background-size: contain;
+        /* Görüntüyü div'in içine sığacak şekilde boyutlandır */
+        background-repeat: no-repeat;
+        /* Görüntüyü tekrar etme */
+        background-position: center;
+        /* Görüntüyü dikey ve yatay olarak merkezle 
+        width: 100%;*/
+        /* Görüntü genişliği */
+        margin-top: 25px;
+        /* İstediğiniz şekilde ayarlayın */
+        /* text-align: right; */
+        text-align: left;
+        float: left;
+        margin-left: -20px;
+    }
+
+    .navbar a {
+        font-weight: 700;
+        font-size: 1.5rem;
+        padding: 25px 30px;
+        margin-right: -45px;
+        text-align: right;
+    }
+
+    .main-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .main-content .btn {
+        font-size: 1.8rem;
+        /* margin: 5px;
+        padding: 7px 20px; */
+        width: auto;
+    }
+
+    .service {
+        width: 10vh;
+        height: 12vh;
+    }
+
+    .about {
+         /* flex-direction: column-reverse;
+       Mobil boyutta sütun haline getir ve sıralamayı ters çevir */
+        align-items: center;
+        padding: 5px 15px;
+        text-align: justify;
+
+    }
+
+    .heading h2 {
+        padding-top: 60px;
+        font-size: 3rem;
+    }
+
+    .content p {
+        line-height: 22px;
+        font-size: 1.3rem;
+        padding: 10px 15px;
+    }
+
+
+    .about-image,
+    .about .container {
+        width: 100%;
+        /* Sütunların genişliğini tam ekran yap */
+        margin-right: 0;
+        /* Sağ taraftaki boşluğu kaldır */
+    }
+
+    .about-image {
+        margin-top: 20px;
+        /* İki sütun arasına boşluk ekle */
+        margin-bottom: 40px;
+        display: flex;
+        /* Resimleri ve içerikleri hizalamak için flex kullan */
+        justify-content: center;
+        /* Resmi yatayda ortala */
+    }
+
+    .about-image img {
+        max-width: 80%;
+        /* Resmin maksimum genişliğini ayarla */
+        height: auto;
+        /* Resmin orijinal en boy oranını koru */
+        border-radius: 10px;
+        margin-left: auto;
+        /* Media sorgusunda resmi tam ortalamak için sola ve sağa boşluk ekleyin */
+        margin-right: auto;
+    }
+
+    .service {
+        /*
+        width: auto;*/
+        height: auto;
+        width: 50vh;
+    }
+
+    .service h3 {
+        margin: 15px 0;
+    }
+
+    .service p {
+        padding: 2px 30px 15px 30px;
+    }
+
+    .footer .icon {
+        margin: 1px;
+    }
+  }
