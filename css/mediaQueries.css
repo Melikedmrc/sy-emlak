@@ -311,11 +311,11 @@
 
     .heading h2 {
         font-size: 4rem !important;
-        margin-top: -45px;
+        margin-top: -55px;
     }
 
     .content p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 400;
         line-height: 32px;
         color: #666;
