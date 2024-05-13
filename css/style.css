@@ -22,7 +22,7 @@ p {
 }
 
 .img {
-    margin-top: 35px;
+    margin-top: 25px;
     margin-left: 60px;
     width: 20%;
 }
@@ -263,6 +263,7 @@ a {
     color: #666;
     margin-top: 2px;
     word-spacing: 0.1em;
+    text-align: center;
 }
 
 

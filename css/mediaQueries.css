@@ -1,3 +1,44 @@
+.heading h2 {
+    padding-top: 60px;
+    font-size: 3rem;
+}
+
+.content p {
+    line-height: 22px;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+}
+
+.about-image,
+.about .container {
+    width: 100%;
+    /* Sütunların genişliğini tam ekran yap */
+    margin-right: 0;
+    /* Sağ taraftaki boşluğu kaldır */
+}
+
+.about-image {
+    margin-top: 20px;
+    /* İki sütun arasına boşluk ekle */
+    margin-bottom: 40px;
+    display: flex;
+    /* Resimleri ve içerikleri hizalamak için flex kullan */
+    justify-content: center;
+    /* Resmi yatayda ortala */
+}
+
+.service h3 {
+    margin: 15px 0;
+}
+
+.service p {
+    padding: 2px 30px 15px 30px;
+}
+
+.footer .icon {
+    margin: 1px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     .menu {
         display: none;
@@ -46,36 +87,6 @@
 
     }
 
-    .heading h2 {
-        padding-top: 60px;
-        font-size: 3rem;
-    }
-
-    .content p {
-        line-height: 22px;
-        font-size: 1.3rem;
-        padding: 10px 15px;
-    }
-
-
-    .about-image,
-    .about .container {
-        width: 100%;
-        /* Sütunların genişliğini tam ekran yap */
-        margin-right: 0;
-        /* Sağ taraftaki boşluğu kaldır */
-    }
-
-    .about-image {
-        margin-top: 20px;
-        /* İki sütun arasına boşluk ekle */
-        margin-bottom: 40px;
-        display: flex;
-        /* Resimleri ve içerikleri hizalamak için flex kullan */
-        justify-content: center;
-        /* Resmi yatayda ortala */
-    }
-
     .about-image img {
         max-width: 80%;
         /* Resmin maksimum genişliğini ayarla */
@@ -87,22 +98,12 @@
         margin-right: auto;
     }
 
+
     .service {
         width: auto;
         height: auto;
     }
 
-    .service h3 {
-        margin: 15px 0;
-    }
-
-    .service p {
-        padding: 2px 30px 15px 30px;
-    }
-
-    .footer .icon {
-        margin: 1px;
-    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -160,36 +161,6 @@
 
     }
 
-    .heading h2 {
-        padding-top: 60px;
-        font-size: 3rem;
-    }
-
-    .content p {
-        line-height: 22px;
-        font-size: 1.3rem;
-        padding: 10px 15px;
-    }
-
-
-    .about-image,
-    .about .container {
-        width: 100%;
-        /* Sütunların genişliğini tam ekran yap */
-        margin-right: 0;
-        /* Sağ taraftaki boşluğu kaldır */
-    }
-
-    .about-image {
-        margin-top: 20px;
-        /* İki sütun arasına boşluk ekle */
-        margin-bottom: 40px;
-        display: flex;
-        /* Resimleri ve içerikleri hizalamak için flex kullan */
-        justify-content: center;
-        /* Resmi yatayda ortala */
-    }
-
     .about-image img {
         max-width: 80%;
         /* Resmin maksimum genişliğini ayarla */
@@ -201,6 +172,7 @@
         margin-right: auto;
     }
 
+
     .service {
         /*
         width: auto;*/
@@ -208,24 +180,13 @@
         width: 50vh;
     }
 
-    .service h3 {
-        margin: 15px 0;
-    }
-
-    .service p {
-        padding: 2px 30px 15px 30px;
-    }
-
-    .footer .icon {
-        margin: 1px;
-    }
 
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-     .img {
+    .img {
         width: 16vh;
-    } 
+    }
 
     .first_logo {
         background-size: contain;
@@ -269,42 +230,12 @@
     }
 
     .about {
-         /* flex-direction: column-reverse;
+        /* flex-direction: column-reverse;
        Mobil boyutta sütun haline getir ve sıralamayı ters çevir */
         align-items: center;
         padding: 5px 15px;
         text-align: justify;
 
-    }
-
-    .heading h2 {
-        padding-top: 60px;
-        font-size: 3rem;
-    }
-
-    .content p {
-        line-height: 22px;
-        font-size: 1.3rem;
-        padding: 10px 15px;
-    }
-
-
-    .about-image,
-    .about .container {
-        width: 100%;
-        /* Sütunların genişliğini tam ekran yap */
-        margin-right: 0;
-        /* Sağ taraftaki boşluğu kaldır */
-    }
-
-    .about-image {
-        margin-top: 20px;
-        /* İki sütun arasına boşluk ekle */
-        margin-bottom: 40px;
-        display: flex;
-        /* Resimleri ve içerikleri hizalamak için flex kullan */
-        justify-content: center;
-        /* Resmi yatayda ortala */
     }
 
     .about-image img {
@@ -318,38 +249,28 @@
         margin-right: auto;
     }
 
+
     .service {
         /*
         width: auto;*/
         height: auto;
         width: 50vh;
-    }
-
-    .service h3 {
-        margin: 15px 0;
-    }
-
-    .service p {
-        padding: 2px 30px 15px 30px;
-    }
-
-    .footer .icon {
-        margin: 1px;
     }
 
 }
 
 @media (min-width: 906px) {
     .footer .footer-icons {
-        flex-direction: row; /* Footer ikonlarını yatayda sırala */
+        flex-direction: row;
+        /* Footer ikonlarını yatayda sırala */
         flex-wrap: nowrap;
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1439px) {
     .img {
-        width: 28vh;
-    } 
+        width: 24vh;
+    }
 
     .first_logo {
         background-size: contain;
@@ -368,96 +289,96 @@
         margin-left: -20px;
     }
 
-    .navbar a {
-        font-weight: 700;
-        font-size: 1.5rem;
-        padding: 25px 30px;
-        margin-right: -45px;
-        text-align: right;
-    }
-
-    .main-content h2 {
-        font-size: 2.5rem;
-    }
-
-    .main-content .btn {
-        font-size: 1.8rem;
-        /* margin: 5px;
-        padding: 7px 20px; */
-        width: auto;
-    }
-
-    .service {
-        width: 10vh;
-        height: 12vh;
-    }
-
-    .about {
-         /* flex-direction: column-reverse;
-       Mobil boyutta sütun haline getir ve sıralamayı ters çevir */
-        align-items: center;
-        padding: 5px 15px;
-        text-align: justify;
-
-    }
-
-    .heading h2 {
-        padding-top: 60px;
-        font-size: 3rem;
-    }
-
-    .content p {
-        line-height: 22px;
-        font-size: 1.3rem;
-        padding: 10px 15px;
-    }
-
 
     .about-image,
     .about .container {
         width: 100%;
         /* Sütunların genişliğini tam ekran yap */
-        margin-right: 0;
+        margin-right: 5%;
         /* Sağ taraftaki boşluğu kaldır */
     }
 
+
+}
+
+
+@media (min-width: 1440px) {
+
+    .navbar a {
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    .heading h2 {
+        font-size: 4rem !important;
+        margin-top: -45px;
+    }
+
+    .content p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 32px;
+        color: #666;
+        margin-top: 2px;
+        word-spacing: 0.1em;
+    }
+
     .about-image {
-        margin-top: 20px;
-        /* İki sütun arasına boşluk ekle */
-        margin-bottom: 40px;
-        display: flex;
-        /* Resimleri ve içerikleri hizalamak için flex kullan */
-        justify-content: center;
-        /* Resmi yatayda ortala */
+        flex: 1;
+        margin-right: 30px;
+        /* Resmin sağ tarafından boşluk almasını sağla */
+        /*margin: 0 auto;  İçerik konteynerini yatayda tam ortalamak için */
     }
 
     .about-image img {
-        max-width: 80%;
+        max-width: 60%;
         /* Resmin maksimum genişliğini ayarla */
         height: auto;
         /* Resmin orijinal en boy oranını koru */
         border-radius: 10px;
-        margin-left: auto;
+        margin-left: 20%;
         /* Media sorgusunda resmi tam ortalamak için sola ve sağa boşluk ekleyin */
-        margin-right: auto;
+        /* margin-right: auto; */
     }
+
+    .about .container {
+        max-width: 40%;
+        /* Sütunların genişliğini tam ekran yap */
+        margin-right: 10%;
+        /* Sağ taraftaki boşluğu kaldır */
+    }
+
 
     .service {
-        /*
-        width: auto;*/
-        height: auto;
+        height: 35vh;
         width: 50vh;
     }
+}
 
-    .service h3 {
-        margin: 15px 0;
+@media (min-width: 2000px) {
+
+    .main-content h2{
+        font-size: 5rem;
+    }
+    .btn{
+        font-size: 2.7rem;
+        padding: 23px 48px;
+    }
+    .heading h2 {
+        font-size: 6rem !important;
+        margin-top: -55px;
     }
 
-    .service p {
-        padding: 2px 30px 15px 30px;
+    .content p {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 32px;
+        color: #666;
+        margin-top: 2px;
+        word-spacing: 0.2em;
     }
-
-    .footer .icon {
-        margin: 1px;
+    .service {
+        height: 25vh;
+        width: 50vh;
     }
-  }
+}
