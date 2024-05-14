@@ -304,6 +304,27 @@ a {
     /*margin: 0 auto;  İçerik konteynerini yatayda tam ortalamak için */
 }
 
+.about-image__animation {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.heading__animation,
+.content__animation {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.about-image__animation.active,
+.heading__animation.active,
+.content__animation.active {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
+
+
 
 /*About End*/
 
@@ -357,7 +378,17 @@ a {
     border-radius: 16px;
     box-shadow: 0 30px 30px -25px rgba(10, 31, 42, 0.35);
     /* Kartın gölge efekti rengi */
+    transition: transform 0.3s ease; /* İlk hali için geçiş efekti */
 }
+
+.service:hover {
+    transform: scale(1.1); /* Service bileşeninin boyutunu büyütme */
+}
+
+.service:not(:hover) {
+    transform: scale(1); /* Hover durumu olmadığında normal boyutuna dönme */
+}
+
 
 
 .service h3 {
