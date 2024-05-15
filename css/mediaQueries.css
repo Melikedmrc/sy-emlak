@@ -40,11 +40,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    
     .menu {
         display: none;
     }
-
-
     .second_logo {
         background-size: contain;
         /* Görüntüyü div'in içine sığacak şekilde boyutlandır */
@@ -57,9 +56,9 @@
         margin-top: 7px;
         /* İstediğiniz şekilde ayarlayın */
         /* text-align: right; */
-        text-align: right;
-        float: right;
-        margin-right: -55px;
+        
+        float: left;
+        margin-left: -70px;
     }
 
     .main-content h2 {
@@ -106,7 +105,8 @@
 
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+
+@media (min-width: 481px) and (max-width: 768px) {
     .img {
         width: 25vh;
     }
@@ -382,3 +382,4 @@
         width: 50vh;
     }
 }
+
