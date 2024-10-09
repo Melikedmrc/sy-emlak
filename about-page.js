@@ -54,10 +54,3 @@ if (window.innerWidth <= 480) { // Mobil boyut
     // Mobil logo görüntüsünü gizleyelim
     document.querySelector('.second_logo').style.display = 'none';
 }
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     const logo = document.getElementById('home');
-//     logo.addEventListener('click', function () {
-//         window.location.href = 'index.html'; // veya anasayfanın URL'sini girin
-//     });
-// });

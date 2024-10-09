@@ -195,8 +195,6 @@ a {
 }
 
 .btn {
-    /*background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);  */
-    /* background-image: linear-gradient(to right, #EE9102 0%, #eda43f  51%, #EE9102  100%);*/
     background-image: linear-gradient(to right, #EE9102 0%, #edce5d 51%, #EE9102 100%);
     margin: 10px;
     padding: 13px 38px;
@@ -220,29 +218,6 @@ a {
     text-decoration: none;
     transform: scale(1.1);
 }
-
-/* .btn {
-    display: inline-block;
-    background-color: #EE9102;
-    color: #000000;
-    padding: 12px 24px;
-    margin: 15px;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 1.6rem;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s ease; 
-
-}
-
- .btn:hover {
-    transform: scale(1.1);
-    
-    box-shadow: 0 0 20px rgba(255, 193, 7, 0.7);
-    
-}     */
-
 
 /*About Start*/
 
@@ -282,15 +257,11 @@ a {
 .about-image {
     flex: 1;
     margin-right: 30px;
-    /* Resmin sağ tarafından boşluk almasını sağla */
-    /*margin: 0 auto;  İçerik konteynerini yatayda tam ortalamak için */
 }
 
 .about img {
     max-width: 60%;
-    /* Resmin maksimum genişliğini %100 olarak ayarla */
     height: auto;
-    /* Resmin orijinal en boy oranını koru */
     border-radius: 10px;
     margin-left: 20%;
 }
@@ -370,7 +341,6 @@ a {
 .service {
     text-align: center;
     margin: 15px 15px 25px 15px;
-    /* Servis öğeleri arasındaki boşluğu ayarlar */
     width: 50vh;
     height: 38vh;
     background-color: #fff;
@@ -462,56 +432,6 @@ a {
     background-color: #0A1F2A;
 }
 
-
-
-/*Services End*/
-/* 
-.footer-container {
-    display: flex;
-    justify-content:space-around; 
-    background-color: #0A1F2A; 
-    color: #fff; 
-    padding: 30px;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.footer .icon {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 12px;
-}
-
-.footer h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 18px;
-
-}
-
-.footer p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 400;
-    color: #f8f8f8;
-}
-
-.copyright{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-} */
 .footer {
     display: flex;
     flex-direction: column;
